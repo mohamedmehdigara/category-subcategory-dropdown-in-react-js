@@ -1,12 +1,13 @@
 import './App.css';
-import Categorydropdown from './components/Categorydropdown';
-import SubcategoryDropdown from './components/SubcategoryDropdown';
+import CategoryDropdown from './components/CategoryDropdown';
+import SubcategoryDropdown from './components/SubCategoryDropdown';
 import CatSubcatDropdown from './components/CatSubcatDropdown';
+
 
 function App() {
   return (
     <div className="App">
-      <Categorydropdown/>
+      <CategoryDropdown/>
       <SubcategoryDropdown/>
       <CatSubcatDropdown/>
     </div>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const SubcategoryDropdown = (props) => {
+const SubCategoryDropdown = (props) => {
   const [selectedSubcategory, setSelectedSubcategory] = useState("");
   const [subcategories, setSubcategories] = useState([]);
 
@@ -34,4 +34,4 @@ const SubcategoryDropdown = (props) => {
   );
 };
 
-export default SubcategoryDropdown;
+export default SubCategoryDropdown;

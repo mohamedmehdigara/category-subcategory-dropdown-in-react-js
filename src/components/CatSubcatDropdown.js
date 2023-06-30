@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Categorydropdown from './components/Categorydropdown';
-import SubcategoryDropdown from './SubcategoryDropdown';
+import CategoryDropdown from './components/CategoryDropdown';
+import SubCategoryDropdown from './components/SubCategoryDropdown';
 
 const CategorySubcategoryDropdown = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -19,7 +19,7 @@ const CategorySubcategoryDropdown = () => {
     <div>
       <CategoryDropdown onCategoryChange={handleCategoryChange} />
       {selectedCategory && (
-        <SubcategoryDropdown
+        <SubCategoryDropdown
           category={selectedCategory}
           onSubcategoryChange={handleSubcategoryChange}
         />

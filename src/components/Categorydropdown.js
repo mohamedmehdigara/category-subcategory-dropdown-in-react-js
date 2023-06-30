@@ -21,4 +21,4 @@ const CategoryDropdown = (props) => {
   );
 };
 
-export default Categorydropdown;
+export default CategoryDropdown;
